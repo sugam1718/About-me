@@ -1,0 +1,237 @@
+body{ 
+    background-image:url('bwahah.png');
+   background-attachment: fixed;
+   background-size:cover;
+   overflow-x: hidden;
+   }
+.container{
+    display: grid;
+    
+      height: 800px;;
+      grid-template-columns:auto ;
+      grid-template-rows: auto auto;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .im{
+      
+      
+      font-size: 100px;
+      color: antiquewhite;
+      background-color: transparent;
+      font-family: 'fixedsys';
+      justify-content: center;
+      
+      width: fit-content;
+      height: fit-content;
+  
+  }
+  .dedi{
+      
+      
+      font-size: 40px;
+      background-color: transparent;
+     color: antiquewhite;
+      
+      
+      justify-content: center;
+      
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      height: fit-content;
+      width: fit-content;
+      transform: translateY(-300px);
+  }
+  .second{
+    height: 900px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .second1{
+     display: flex;
+     width: fit-content;
+     height: fit-content;
+     justify-self: center;
+  }
+  .second2{
+    
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    text-align: center;
+    color: #A367B1;
+    font-family: 'fixedsys';
+    font-weight:500;
+   justify-content: center;
+   margin-top: 20px;
+
+  }
+  .second3{
+    height: fit-content;
+    display: flex;
+    margin-top: 50px;
+    
+    gap: 350px;
+  }
+  .second3a{
+    height: 330px;
+    width: 263px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .second3b{
+    height : 330px;
+    width: 263px;
+    
+    background-color: antiquewhite;
+  }
+  .second3a1{
+    height: fit-content;
+    text-decoration: underline;
+    font-size: 50px;
+    transform: translateX(50px);
+    justify-content: center;
+    color: #643843;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .second3a2{
+    height: auto;
+    font-size: 40px;
+    transform: translateY(-10px);
+  }
+  .second3b1{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: underline;
+    font-size: 50px;
+    transform: translateX(30px);
+    justify-content: center;
+    color: #643843;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .second3b2{
+    height: auto;
+    font-size: 40px;
+    transform: translateY(-10px);
+  }
+  .third{
+    height: 850px ;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    flex-direction: column;
+  }
+  .third1{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: underline;
+    color: #A367B1;
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .third2{
+    height: 300px;
+    display: flex;
+    width: 1000px;
+    gap :30px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+  }
+  .third2 > * {
+    height: 100%;
+    width: 33.33%;
+  } 
+  p{
+     transform: translateY(-40px) translateX(50px);
+     color: #910A67;
+     font-size: 50px;
+     text-align: center;
+     width: fit-content;
+  }
+  .fourth{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+  .fourth1{
+       width: fit-content;
+       height: fit-content;
+        align-self: flex-end;
+       display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 15px;
+        backdrop-filter: (30px);
+        background: linear-gradient(
+      to bottom,
+      #ffffff63,
+      rgba(172, 110, 209, 0.38),
+      #ffffff63
+     );
+     margin-bottom: 70px;
+     margin-right: 20px;
+      }
+  .four1{
+     width: 506px ;
+     height: fit-content ;
+     font-weight: bold;
+     font-size: 70px;
+     
+  }
+  .four2{
+      height: fit-content;
+      width: fit-content;
+      font-size: 50px;
+      font-weight: normal;
+      
+  }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .container{
+    transform: translateX(100px);
+  }
+  .second{
+    scale: 0.9;
+  }
+  .third2{
+    scale: 0.8;
+    transform: translateX(50px);
+  }
+  .fourth1{
+       transform: translateX(100px);
+  }
+}
+
+@media screen and (max-width:767px) {
+    .container{
+      width: 100vh;
+    }
+    .third{
+      width: 100vh;
+    
+    }
+    .third2{
+      scale: 0.9;
+    }
+    .third1{
+      scale: 0.9;
+    }
+    .fourth{
+      width: 100vh;
+    }
+    .fourth1{
+      scale: 0.6;
+    }
+}
+@media screen and (max-width:425px) {
+  
+}
